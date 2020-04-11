@@ -11,7 +11,7 @@ script:
   - yarn build
 notifications:
   email:
-    reciepients:
+    recipients:
       - noel.platzi.spa.37@gmail.com
       - noel.travis.37@gmail.com
     on_success: always
