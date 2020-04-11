@@ -11,10 +11,11 @@ script:
   - yarn build
 notifications:
   email:
-    recipients:
+    reciepients:
       - noel.platzi.spa.37@gmail.com
     on_success: always
     on_failure: always
+# manda emails(notificaciones) cuando es exitoso  o fallo
 deploy:
   provider: pages
   skip-cleanup: true
@@ -25,3 +26,5 @@ deploy:
   commit_message: "Deploy del proyecto"
   on:
     branch: master
+# En target-branch debe ser gh-pages sino no publica en github
+# El GITHUBG_TOKEN, lo creas en Github y  lo registras como variable en travis.
