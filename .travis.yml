@@ -10,6 +10,7 @@ git:
 script:
   - yarn build
 notifications:
+  slack: home-deh8842:7dBif1XuXDV2iFu9lkEdo4pQ
   email:
     recipients:
       - noel.platzi.spa.37@gmail.com
