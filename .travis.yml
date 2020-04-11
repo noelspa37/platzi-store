@@ -13,6 +13,7 @@ notifications:
   email:
     reciepients:
       - noel.platzi.spa.37@gmail.com
+      - noel.travis.37@gmail.com
     on_success: always
     on_failure: always
 # manda emails(notificaciones) cuando es exitoso  o fallo
